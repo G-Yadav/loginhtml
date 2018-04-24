@@ -1,0 +1,90 @@
+.topmenu table,tr,td{
+  background-color: green;
+  font-size:20px;
+  margin:-10px;
+  color:white;
+  border: none;
+  display:block;
+  border-collapse: collapse;
+}
+.topmenu td a{
+  color: black;
+  padding:20px;
+  display:block;
+  text-decoration: none;
+}
+.topmenu td a:hover{
+  color:white;
+  background-color:#480F1E;
+}
+.topmenu td{
+  margin:0px;
+  padding:0px;
+  float:left;
+}
+.topmenu tr{
+  margin:0px;
+  text-align:center;
+}
+body{
+  background:black;
+}
+.rightpart {
+  float:right;
+  margin-right: 100px;
+  margin-top :40px;
+}
+fieldset {
+ border-radius:10px;
+ width:400px;
+ color :white;
+ background-color:green;
+}
+
+.rightpart h1 {
+ color:black;
+}
+.leftpart h1 {
+  color:white;
+  float:left;
+  position:absolute;
+  margin-top: 300px;
+  margin-left: 100px;
+  font-size: 100px;
+}
+span {
+ color: black;
+ font-family: cursive;
+}
+legend {
+ background-color:#480F1E;
+ font-size: 22px;
+}
+#new {
+ margin-left: 15px;
+ border:none;
+ padding:5px;
+ border-radius: 0px;
+ color:#480F1E;
+ font-size: 20px;
+}
+#new:hover {
+ color:white;
+ background-color: #480F1E;
+ border:none;
+ padding:5px;
+}
+
+p {
+ color:black;
+ font-family: arial;
+}
+b {
+ color:black;
+ font-family:cursive;
+}
+
+input {
+ border : 0 0 10px 0;
+ border-radius:10px;
+}

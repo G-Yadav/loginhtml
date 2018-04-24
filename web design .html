@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="web design .css">
+  <title>webpage</title>
+</head>
+<body>
+  <div class="topmenu">
+    <table>
+      <tr>
+         <td ><a href="#home">Home</a></td>
+         <td><a href="#operation">Operation</a></td>
+        <td><a href="#about">About Us</a></td>
+        <td ><a href="#contact">Contact</a></td>
+      </tr>
+    </table>
+  </div>
+  <div class="rightpart">
+    <fieldset>
+      <h1>REGISTRATION FORM</h1>
+      <form name="myform">
+      <fieldset>
+      <legend align="left">Basic Information</legend>
+       <b>First Name:</b>
+       <input type="text" name="nam">
+      <br>
+      <br>
+       <b>Last Name:</b>
+       <input type="text" >
+      <br>
+      <br>
+       <b>Branch:</b>
+       <input type="text" >
+      <br>
+      <br>
+       <b>College:</b>
+       <input type="text">
+      <br>
+      <br>
+      <b>Gender:</b>
+       <input type="radio" value="Male" name="Male"><span>Male</span>
+       <input type="radio" value="Female"><span>Female</span>
+       <input type="radio" value="Others"><span>Others</span><br><br>
+       <b>D.O.B: </b><input type="date" name="bdy" value=""><br>
+
+       </select>
+      </fieldset>
+      <br>
+      <fieldset style="">
+      <legend align="left" >Mandotary </legend>
+       <b>*User Name:</b>
+       <input type="text" required>
+      <br>
+      <br>
+       <b>*Password:</b>
+       <input type="password" minlength="6" required>
+       <p>Avoid using predictable text i.e. D.O.B.</p>
+      <br>
+      </fieldset>
+      <br>
+       <input type="submit" id="new" style="width:45%" value="Submit" width="45%" onclick="alert(document.myform.nam.value+' not allowed to be hog rider'  )">
+      <input type="reset" id="new" style="width:45%" ><br>
+       <p><small>* marked are mandotary</small></p>
+    </fieldset>
+  </div>
+  <div class="leftpart">
+    <h1>HOG RIDER</h1>
+  </div>
+</body>
+</html>
